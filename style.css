@@ -34,6 +34,7 @@ body{
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
+    transform: rotate(cal(var(--i)*45deg))translateZ350px();
 }
 .slyder span img{
     position: absolute;
@@ -153,3 +154,6 @@ form .button input:hover{
     }
 }
 /*fin */
+.slyders span:hover img{
+    transform: translate(-50px)scale(1.2);
+}
